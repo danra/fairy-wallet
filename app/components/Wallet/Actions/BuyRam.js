@@ -127,7 +127,7 @@ export default class BuyRam extends Component<Props> {
           </Form.Group>
           <Form.Group id="form-button-control-public">
             <PermissionButton 
-              content="But RAM"
+              content="Buy RAM"
               disabled={disabled}
               account={account}
               onChange={this.handleChange}
